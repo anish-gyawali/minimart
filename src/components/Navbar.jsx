@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import logo from "../assets/InsightProof.png";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -19,13 +20,13 @@ function Navbar() {
 
         <ul className="navbar-links list-unstyled d-flex mb-0">
           <li className="mx-3">
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="mx-3">
-            <a href="#">Product</a>
+            <Link to="/product">Product</Link>
           </li>
           <li className="mx-3">
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
 
