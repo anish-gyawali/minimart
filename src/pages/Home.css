@@ -1,8 +1,23 @@
+.page-wrapper {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.carousel-item img {
+  height: 400px; 
+  object-fit: cover;
+}
+
+
 .home-container {
   display: flex;
-  height: 100vh;
   justify-content: center;
-  font-family: Arial, sans-serif;
+  padding: 40px 20px;
   background-color: #e8cab2;
 }
 
@@ -40,4 +55,3 @@
   border-radius: 8px;
   margin-top: 10px;
 }
-
