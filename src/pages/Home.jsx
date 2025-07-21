@@ -3,8 +3,13 @@ import minimart from "../assets/minimart.jpg";
 import image1 from "../assets/slideImage1.jpg";
 import image2 from "../assets/slideImage2.jpg";
 import image3 from "../assets/slideImage3.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+  const handleClick = ()=>{
+    navigate('/product')
+  }
   return (
     <div className="page-wrapper">
       <div className="carousel-container">
@@ -79,6 +84,7 @@ function Home() {
             <p>Your one-stop shop for daily essentials at affordable prices.</p>
           </div>
           <img src={minimart} alt="Shop Now" className="home-image" />
+          <button className="btn btn-primary" onClick={handleClick}>Shop Now </button>
         </div>
       </div>
     </div>
