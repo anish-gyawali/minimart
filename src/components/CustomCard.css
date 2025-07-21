@@ -1,0 +1,10 @@
+.custom-card{
+    box-shadow: 0 4px 10px wheat;
+    transition: transform 0.2s ease;
+    margin: 20px;
+}
+
+.custom-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgb(191, 185, 185);  
+}
