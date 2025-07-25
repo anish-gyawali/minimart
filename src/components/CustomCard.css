@@ -8,3 +8,13 @@
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgb(191, 185, 185);  
 }
+
+.card-image{
+    height: 200px;     
+    object-fit: contain;   
+    width: 100%;       
+    border-radius: 4px;
+}
+.price-text{
+    font-weight: bold;
+}
