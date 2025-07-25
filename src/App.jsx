@@ -6,6 +6,7 @@ import Product from "./pages/Product";
 import Contact from "./pages/Contact";
 import { useContext } from "react";
 import { ThemeContext } from "./context/ThemeContext";
+import CartPage from "./pages/cartPage";
 
 function App() {
   // 5. Using the context
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path ="/cart" element={<CartPage/>} />
       </Routes>
       </div>
     </>
